@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Sidebar from "./scenes/global/Sidebar"
+import NavBar from "./scenes/global/NavBar"
+import { Routes, Route } from "react-router-dom"
 function App() {
+  const activeMenu = true
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      {activeMenu ? (
+        <div className="w-72 fixed">
+          <Sidebar />
+        </div>
+      ) : (
+        <div></div>
+      )}
+      <NavBar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

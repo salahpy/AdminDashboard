@@ -1,0 +1,36 @@
+npx strat-react-app name-of-app 
+npm install react-router-dom react-pro-sidebar
+
+react-router-dom: This package is a collection of navigational components that enable navigation and routing in a React application. 
+
+react-pro-sidebar: This package provides a professional and customizable sidebar component for React applications. 
+
+-MUI:
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/x-data-grid 
+npm install @mui/icons-material
+
+npm install formik yup 
+
+Formik is a form management library for React that aims to simplify the process of building and handling forms in React applications.
+
+Yup is a JavaScript schema validation library that is often used for validating form data. It allows you to define a schema for your data and then validate that data against the schema.
+
+npm install \
+  @fullcalendar/core \
+  @fullcalendar/daygrid \
+  @fullcalendar/timegrid \
+  @fullcalendar/list
+
+fullcalendar is library that provides calendar functions
+
+nivo is library that provides different charts that you have to add them from their website
+
+import { BrowserRouter } from 'react-router-dom';
+<BrowserRouter>
+    /* we wrap our apps */
+</BrowserRouter>
+
+we go to google fonts choose the wanted fonts and import them
+
+prettier-plugin-tailwindcss will order tailwind styles in logical way
