@@ -34,3 +34,7 @@ import { BrowserRouter } from 'react-router-dom';
 we go to google fonts choose the wanted fonts and import them
 
 prettier-plugin-tailwindcss will order tailwind styles in logical way
+
+to use context provider we create than we wrap our app with it 
+
+

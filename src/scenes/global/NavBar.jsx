@@ -4,38 +4,48 @@ import LocalGroceryStoreOutlinedIcon from "@mui/icons-material/LocalGroceryStore
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined"
 import NotificationsNoneRoundedIcon from "@mui/icons-material/NotificationsNoneRounded"
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined"
+import { useStateContext } from "../../context/Context"
+import Chat from "../../pages/Chat"
+import UserProfile from "../../pages/UserProfile"
+import Notification from "../../pages/Notification"
+import Cart from "../../pages/Cart"
 
 const NavBar = () => {
+  const { activeMenu, setActiveMenu , IsClicked , handleClick} = useStateContext()
+  const handleActiveMenu = () => setActiveMenu(!activeMenu)
+
   return (
-    <div className="flex my-3 z-1000 items-center">
-      <div className="pl-8">LOGO</div>
-      <div className="flex justify-between items-center">
-        <div className="flex justify-center items-center">
-          <button>
-            <MenuIcon className="mr-3" />
-          </button>
-          <button>
-            <SearchIcon className="ml-3" />
-          </button>
-        </div>
-        <div className="flex justify-center items-center">
-          <button>
-            <LocalGroceryStoreOutlinedIcon className="mx-3" />
-          </button>
-          <button>
-            <ChatBubbleOutlineOutlinedIcon className="mx-3" />
-          </button>
-          <button>
-            <NotificationsNoneRoundedIcon className="mx-3" />
-          </button>
-          <button className="flex justify-between mx-3">
-            <p>
-              Hi, <span className="font-bold"> Maria</span>
-            </p>
-            <KeyboardArrowDownOutlinedIcon className="mx-1" />
-          </button>
-        </div>
+    <div className="flex justify-between items-center mt-0 py-6 px-4  bg-white">
+      <div className="flex justify-center items-center">
+        <button onClick={handleActiveMenu}>
+          <MenuIcon className="mr-3 ml-8" />
+        </button>
+        <button>
+          <SearchIcon className="ml-3" />
+        </button>
       </div>
+      <div className="flex justify-center items-center">
+        <button onClick={() => handleClick('Cart')}>
+          <LocalGroceryStoreOutlinedIcon className="mx-3" />
+        </button>
+        <button onClick={() => handleClick('Chat')}>
+          <ChatBubbleOutlineOutlinedIcon className="mx-3" />
+        </button>
+        <button onClick={() => handleClick('Notification')}>
+          <NotificationsNoneRoundedIcon className="mx-3" />
+        </button>
+        <button className="flex justify-between mx-3" onClick={() => handleClick('UserProfile')}>
+          <p>
+            Hi, <span className="font-bold"> Maria</span>
+          </p>
+          <KeyboardArrowDownOutlinedIcon className="mx-1" />
+        </button>
+      </div>
+
+      {IsClicked.Cart && <Cart />}
+        {IsClicked.chat && (<Chat />)}
+        {IsClicked.notification && (<Notification />)}
+        {IsClicked.userProfile && (<UserProfile />)}
     </div>
   )
 }
