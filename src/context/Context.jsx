@@ -3,18 +3,22 @@ import React, { createContext, useContext, useState } from "react"
 const StateContext = createContext()
 
 const initialState = {
-  chat: false,
-  cart: false,
-  userProfile: false,
-  notification: false,
+  Chat: false,
+  Cart: false,
+  CserProfile: false,
+  Notification: false,
 }
 
 export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true)
   const [IsClicked, setIsClicked] = useState(initialState)
-
-  const handleClick = (clicked) =>
-    setIsClicked({ ...initialState, [clicked]: true })
+  
+  const handleClick = (key) => {
+    setIsClicked((prevIsClicked) => ({
+      ...prevIsClicked,
+      [key]: !prevIsClicked[key],
+    }));
+  };
 
   return (
     <StateContext.Provider

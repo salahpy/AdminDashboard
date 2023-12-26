@@ -424,8 +424,8 @@ export const customersGrid = [
     width: '150',
     textAlign: 'Center' },
 
-  { field: 'CustomerID',
-    headerText: 'Customer ID',
+  { field: 'Customerid',
+    headerText: 'Customer id',
     width: '120',
     textAlign: 'Center',
     isPrimaryKey: true,
@@ -463,8 +463,8 @@ export const employeesGrid = [
     headerText: 'Reports To',
     width: '120',
     textAlign: 'Center' },
-  { field: 'EmployeeID',
-    headerText: 'Employee ID',
+  { field: 'Employeeid',
+    headerText: 'Employee id',
     width: '125',
     textAlign: 'Center' },
 ];
@@ -545,7 +545,7 @@ export const cartData = [
   },
 ];
 
-export const chatData = [
+export const notifData = [
   {
     image:
       avatar2,
@@ -574,6 +574,31 @@ export const chatData = [
     desc: 'Assign her new tasks',
     time: '1:12 AM',
   },
+];
+
+export const chatData = [
+  {
+    image:
+      avatar2,
+    message: 'Semeone',
+    desc: 'Congratulations',
+    time: '9:08 AM',
+  },
+  {
+    image:
+      avatar3,
+    message: 'Khaled',
+    desc: 'Your project is ready',
+    time: '11:56 AM',
+  },
+  {
+    image:
+      avatar4,
+    message: 'Imene',
+    desc: 'Check your earnings',
+    time: '4:39 AM',
+  },
+ 
 ];
 
 export const earningData = [
@@ -868,8 +893,8 @@ export const ordersGrid = [
     width: '120',
   },
   {
-    field: 'OrderID',
-    headerText: 'Order ID',
+    field: 'Orderid',
+    headerText: 'Order id',
     width: '120',
     textAlign: 'Center',
   },
@@ -884,7 +909,7 @@ export const ordersGrid = [
 
 export const customersData = [
   {
-    CustomerID: 1001,
+    Customerid: 1001,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -897,7 +922,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1002,
+    Customerid: 1002,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -912,7 +937,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1003,
+    Customerid: 1003,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -926,7 +951,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1004,
+    Customerid: 1004,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -940,7 +965,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1005,
+    Customerid: 1005,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -954,7 +979,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1006,
+    Customerid: 1006,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -967,7 +992,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1007,
+    Customerid: 1007,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -982,7 +1007,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1008,
+    Customerid: 1008,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -996,7 +1021,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1009,
+    Customerid: 1009,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1010,7 +1035,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1010,
+    Customerid: 1010,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1024,7 +1049,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1011,
+    Customerid: 1011,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -1037,7 +1062,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1012,
+    Customerid: 1012,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1052,7 +1077,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1013,
+    Customerid: 1013,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1066,7 +1091,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1014,
+    Customerid: 1014,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1080,7 +1105,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1015,
+    Customerid: 1015,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1094,7 +1119,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1016,
+    Customerid: 1016,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -1107,7 +1132,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1017,
+    Customerid: 1017,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1122,7 +1147,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1018,
+    Customerid: 1018,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1136,7 +1161,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1019,
+    Customerid: 1019,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1150,7 +1175,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1020,
+    Customerid: 1020,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1164,7 +1189,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1021,
+    Customerid: 1021,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -1177,7 +1202,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1022,
+    Customerid: 1022,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1192,7 +1217,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1023,
+    Customerid: 1023,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1206,7 +1231,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1024,
+    Customerid: 1024,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1220,7 +1245,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1025,
+    Customerid: 1025,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1234,7 +1259,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1026,
+    Customerid: 1026,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -1247,7 +1272,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1027,
+    Customerid: 1027,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1262,7 +1287,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1028,
+    Customerid: 1028,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1276,7 +1301,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1029,
+    Customerid: 1029,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1290,7 +1315,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1030,
+    Customerid: 1030,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1304,7 +1329,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1031,
+    Customerid: 1031,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -1317,7 +1342,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1032,
+    Customerid: 1032,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1332,7 +1357,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1033,
+    Customerid: 1033,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1346,7 +1371,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1034,
+    Customerid: 1034,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1360,7 +1385,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1035,
+    Customerid: 1035,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1374,7 +1399,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1036,
+    Customerid: 1036,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage:
@@ -1387,7 +1412,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1037,
+    Customerid: 1037,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1402,7 +1427,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1038,
+    Customerid: 1038,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1416,7 +1441,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1039,
+    Customerid: 1039,
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
@@ -1429,7 +1454,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1040,
+    Customerid: 1040,
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
@@ -1446,7 +1471,7 @@ export const customersData = [
 
 export const employeesData = [
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1456,7 +1481,7 @@ export const employeesData = [
     avatar3,
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1466,7 +1491,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1476,7 +1501,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1486,7 +1511,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1496,7 +1521,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1506,7 +1531,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1516,7 +1541,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1527,7 +1552,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1537,7 +1562,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1547,7 +1572,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1557,7 +1582,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1567,7 +1592,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1577,7 +1602,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1587,7 +1612,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1597,7 +1622,7 @@ export const employeesData = [
     avatar,
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1607,7 +1632,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1617,7 +1642,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1627,7 +1652,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1637,7 +1662,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1647,7 +1672,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1657,7 +1682,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1668,7 +1693,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1678,7 +1703,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1688,7 +1713,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1698,7 +1723,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1708,7 +1733,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1718,7 +1743,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1728,7 +1753,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1739,7 +1764,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1749,7 +1774,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1759,7 +1784,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1769,7 +1794,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1779,7 +1804,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1789,7 +1814,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1799,7 +1824,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1810,7 +1835,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1820,7 +1845,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1830,7 +1855,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1840,7 +1865,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1850,7 +1875,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1860,7 +1885,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1870,7 +1895,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1881,7 +1906,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1891,7 +1916,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1901,7 +1926,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1911,7 +1936,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1921,7 +1946,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1931,7 +1956,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1941,7 +1966,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1952,7 +1977,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1962,7 +1987,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1972,7 +1997,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1982,7 +2007,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1992,7 +2017,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -2002,7 +2027,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -2012,7 +2037,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 1,
+    Employeeid: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -2023,7 +2048,7 @@ export const employeesData = [
 
   },
   {
-    EmployeeID: 2,
+    Employeeid: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -2033,7 +2058,7 @@ export const employeesData = [
       avatar3,
   },
   {
-    EmployeeID: 3,
+    Employeeid: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -2043,7 +2068,7 @@ export const employeesData = [
       avatar4,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -2053,7 +2078,7 @@ export const employeesData = [
       avatar2,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -2063,7 +2088,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 4,
+    Employeeid: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -2073,7 +2098,7 @@ export const employeesData = [
       avatar,
   },
   {
-    EmployeeID: 5,
+    Employeeid: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -2086,7 +2111,7 @@ export const employeesData = [
 
 export const ordersData = [
   {
-    OrderID: 10248,
+    Orderid: 10248,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2098,7 +2123,7 @@ export const ordersData = [
       product6,
   },
   {
-    OrderID: 345653,
+    Orderid: 345653,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2109,7 +2134,7 @@ export const ordersData = [
       product5,
   },
   {
-    OrderID: 390457,
+    Orderid: 390457,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2120,7 +2145,7 @@ export const ordersData = [
       product7,
   },
   {
-    OrderID: 893486,
+    Orderid: 893486,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2131,7 +2156,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 748975,
+    Orderid: 748975,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2142,7 +2167,7 @@ export const ordersData = [
     product1,
   },
   {
-    OrderID: 94757,
+    Orderid: 94757,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2153,7 +2178,7 @@ export const ordersData = [
       product2,
   },
   {
-    OrderID: 944895,
+    Orderid: 944895,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2164,7 +2189,7 @@ export const ordersData = [
       product3,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2175,7 +2200,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2186,7 +2211,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2197,7 +2222,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    Orderid: 38489,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2208,7 +2233,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    Orderid: 24546,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2219,7 +2244,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2230,7 +2255,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    Orderid: 10248,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2242,7 +2267,7 @@ export const ordersData = [
       product6,
   },
   {
-    OrderID: 345653,
+    Orderid: 345653,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2253,7 +2278,7 @@ export const ordersData = [
       product5,
   },
   {
-    OrderID: 390457,
+    Orderid: 390457,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2264,7 +2289,7 @@ export const ordersData = [
       product7,
   },
   {
-    OrderID: 893486,
+    Orderid: 893486,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2275,7 +2300,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 748975,
+    Orderid: 748975,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2286,7 +2311,7 @@ export const ordersData = [
       product1,
   },
   {
-    OrderID: 94757,
+    Orderid: 94757,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2297,7 +2322,7 @@ export const ordersData = [
       product2,
   },
   {
-    OrderID: 944895,
+    Orderid: 944895,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2308,7 +2333,7 @@ export const ordersData = [
       product3,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2319,7 +2344,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2330,7 +2355,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2341,7 +2366,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    Orderid: 38489,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2352,7 +2377,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    Orderid: 24546,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2363,7 +2388,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2374,7 +2399,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    Orderid: 10248,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2386,7 +2411,7 @@ export const ordersData = [
       product6,
   },
   {
-    OrderID: 345653,
+    Orderid: 345653,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2397,7 +2422,7 @@ export const ordersData = [
       product5,
   },
   {
-    OrderID: 390457,
+    Orderid: 390457,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2408,7 +2433,7 @@ export const ordersData = [
       product7,
   },
   {
-    OrderID: 893486,
+    Orderid: 893486,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2419,7 +2444,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 748975,
+    Orderid: 748975,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2430,7 +2455,7 @@ export const ordersData = [
       product1,
   },
   {
-    OrderID: 94757,
+    Orderid: 94757,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2441,7 +2466,7 @@ export const ordersData = [
       product2,
   },
   {
-    OrderID: 944895,
+    Orderid: 944895,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2452,7 +2477,7 @@ export const ordersData = [
       product3,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2463,7 +2488,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2474,7 +2499,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2485,7 +2510,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    Orderid: 38489,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2496,7 +2521,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    Orderid: 24546,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2507,7 +2532,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2518,7 +2543,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    Orderid: 10248,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2530,7 +2555,7 @@ export const ordersData = [
       product6,
   },
   {
-    OrderID: 345653,
+    Orderid: 345653,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2541,7 +2566,7 @@ export const ordersData = [
       product5,
   },
   {
-    OrderID: 390457,
+    Orderid: 390457,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2552,7 +2577,7 @@ export const ordersData = [
       product7,
   },
   {
-    OrderID: 893486,
+    Orderid: 893486,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2563,7 +2588,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 748975,
+    Orderid: 748975,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2574,7 +2599,7 @@ export const ordersData = [
       product1,
   },
   {
-    OrderID: 94757,
+    Orderid: 94757,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2585,7 +2610,7 @@ export const ordersData = [
       product2,
   },
   {
-    OrderID: 944895,
+    Orderid: 944895,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2596,7 +2621,7 @@ export const ordersData = [
       product3,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2607,7 +2632,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2618,7 +2643,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2629,7 +2654,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    Orderid: 38489,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2640,7 +2665,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    Orderid: 24546,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2651,7 +2676,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2662,7 +2687,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    Orderid: 10248,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2674,7 +2699,7 @@ export const ordersData = [
       product6,
   },
   {
-    OrderID: 345653,
+    Orderid: 345653,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2685,7 +2710,7 @@ export const ordersData = [
       product5,
   },
   {
-    OrderID: 390457,
+    Orderid: 390457,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2696,7 +2721,7 @@ export const ordersData = [
       product7,
   },
   {
-    OrderID: 893486,
+    Orderid: 893486,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2707,7 +2732,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 748975,
+    Orderid: 748975,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2718,7 +2743,7 @@ export const ordersData = [
       product1,
   },
   {
-    OrderID: 94757,
+    Orderid: 94757,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2729,7 +2754,7 @@ export const ordersData = [
       product2,
   },
   {
-    OrderID: 944895,
+    Orderid: 944895,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2740,7 +2765,7 @@ export const ordersData = [
       product3,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2751,7 +2776,7 @@ export const ordersData = [
       product4,
   },
   {
-    OrderID: 845954,
+    Orderid: 845954,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2762,7 +2787,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2773,7 +2798,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    Orderid: 38489,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2784,7 +2809,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    Orderid: 24546,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2795,7 +2820,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    Orderid: 874534,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2809,197 +2834,31 @@ export const ordersData = [
 
 export const scheduleData = [
   {
-    Id: 1,
-    Subject: 'Explosion of Betelgeuse Star',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-10T04:00:00.000Z',
-    EndTime: '2021-01-10T05:30:00.000Z',
-    CategoryColor: '#1aaa55',
+    id: 1,
+    title: 'Explosion of Betelgeuse Star',
+    date: '2023-12-10',
   },
   {
-    Id: 2,
-    Subject: 'Thule Air Crash Report',
-    Location: 'Newyork City',
-    StartTime: '2021-01-11T06:30:00.000Z',
-    EndTime: '2021-01-11T08:30:00.000Z',
-    CategoryColor: '#357cd2',
+    id: 2,
+    title: 'Thule Air Crash Report',
+    date: '2023-12-11',
   },
   {
-    Id: 3,
-    Subject: 'Blue Moon Eclipse',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-12T04:00:00.000Z',
-    EndTime: '2021-01-12T05:30:00.000Z',
-    CategoryColor: '#7fa900',
+    id: 3,
+    title: 'Blue Moon Eclipse',
+    date: '2023-12-12',
   },
   {
-    Id: 4,
-    Subject: 'Meteor Showers in 2021',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-13T07:30:00.000Z',
-    EndTime: '2021-01-13T09:00:00.000Z',
-    CategoryColor: '#ea7a57',
+    id: 4,
+    title: 'Meteor Showers in 2021',
+    date: '2023-12-13',
   },
   {
-    Id: 5,
-    Subject: 'Milky Way as Melting pot',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-14T06:30:00.000Z',
-    EndTime: '2021-01-14T08:30:00.000Z',
-    CategoryColor: '#00bdae',
+    id: 5,
+    title: 'Milky Way as Melting pot',
+    date: '2023-12-14',
   },
-  {
-    Id: 6,
-    Subject: 'Mysteries of Bermuda Triangle',
-    Location: 'Bermuda',
-    StartTime: '2021-01-14T04:00:00.000Z',
-    EndTime: '2021-01-14T05:30:00.000Z',
-    CategoryColor: '#f57f17',
-  },
-  {
-    Id: 7,
-    Subject: 'Glaciers and Snowflakes',
-    Location: 'Himalayas',
-    StartTime: '2021-01-15T05:30:00.000Z',
-    EndTime: '2021-01-15T07:00:00.000Z',
-    CategoryColor: '#1aaa55',
-  },
-  {
-    Id: 8,
-    Subject: 'Life on Mars',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-16T03:30:00.000Z',
-    EndTime: '2021-01-16T04:30:00.000Z',
-    CategoryColor: '#357cd2',
-  },
-  {
-    Id: 9,
-    Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-18T05:30:00.000Z',
-    EndTime: '2021-01-18T07:30:00.000Z',
-    CategoryColor: '#7fa900',
-  },
-  {
-    Id: 10,
-    Subject: 'Wildlife Galleries',
-    Location: 'Africa',
-    StartTime: '2021-01-20T05:30:00.000Z',
-    EndTime: '2021-01-20T07:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 11,
-    Subject: 'Best Photography 2021',
-    Location: 'London',
-    StartTime: '2021-01-21T04:00:00.000Z',
-    EndTime: '2021-01-21T05:30:00.000Z',
-    CategoryColor: '#00bdae',
-  },
-  {
-    Id: 12,
-    Subject: 'Smarter Puppies',
-    Location: 'Sweden',
-    StartTime: '2021-01-08T04:30:00.000Z',
-    EndTime: '2021-01-08T06:00:00.000Z',
-    CategoryColor: '#f57f17',
-  },
-  {
-    Id: 13,
-    Subject: 'Myths of Andromeda Galaxy',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-06T05:00:00.000Z',
-    EndTime: '2021-01-06T07:00:00.000Z',
-    CategoryColor: '#1aaa55',
-  },
-  {
-    Id: 14,
-    Subject: 'Aliens vs Humans',
-    Location: 'Research Center of USA',
-    StartTime: '2021-01-05T04:30:00.000Z',
-    EndTime: '2021-01-05T06:00:00.000Z',
-    CategoryColor: '#357cd2',
-  },
-  {
-    Id: 15,
-    Subject: 'Facts of Humming Birds',
-    Location: 'California',
-    StartTime: '2021-01-19T04:00:00.000Z',
-    EndTime: '2021-01-19T05:30:00.000Z',
-    CategoryColor: '#7fa900',
-  },
-  {
-    Id: 16,
-    Subject: 'Sky Gazers',
-    Location: 'Alaska',
-    StartTime: '2021-01-22T05:30:00.000Z',
-    EndTime: '2021-01-22T07:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 17,
-    Subject: 'The Cycle of Seasons',
-    Location: 'Research Center of USA',
-    StartTime: '2021-01-11T00:00:00.000Z',
-    EndTime: '2021-01-11T02:00:00.000Z',
-    CategoryColor: '#00bdae',
-  },
-  {
-    Id: 18,
-    Subject: 'Space Galaxies and Planets',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-11T11:30:00.000Z',
-    EndTime: '2021-01-11T13:00:00.000Z',
-    CategoryColor: '#f57f17',
-  },
-  {
-    Id: 19,
-    Subject: 'Lifecycle of Bumblebee',
-    Location: 'San Fransisco',
-    StartTime: '2021-01-14T00:30:00.000Z',
-    EndTime: '2021-01-14T02:00:00.000Z',
-    CategoryColor: '#7fa900',
-  },
-  {
-    Id: 20,
-    Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-14T10:30:00.000Z',
-    EndTime: '2021-01-14T12:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 21,
-    Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-10T08:30:00.000Z',
-    EndTime: '2021-01-10T10:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 22,
-    Subject: 'The Cycle of Seasons',
-    Location: 'Research Center of USA',
-    StartTime: '2021-01-12T09:00:00.000Z',
-    EndTime: '2021-01-12T10:30:00.000Z',
-    CategoryColor: '#00bdae',
-  },
-  {
-    Id: 23,
-    Subject: 'Sky Gazers',
-    Location: 'Greenland',
-    StartTime: '2021-01-15T09:00:00.000Z',
-    EndTime: '2021-01-15T10:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 24,
-    Subject: 'Facts of Humming Birds',
-    Location: 'California',
-    StartTime: '2021-01-16T07:00:00.000Z',
-    EndTime: '2021-01-16T09:00:00.000Z',
-    CategoryColor: '#7fa900',
-  },
+ 
 ];
 
 export const lineChartData = [
@@ -3034,14 +2893,14 @@ export const lineChartData = [
 ];
 export const dropdownData = [
   {
-    Id: '1',
+    id: '1',
     Time: 'March 2021',
   },
   {
-    Id: '2',
+    id: '2',
     Time: 'April 2021',
   }, {
-    Id: '3',
+    id: '3',
     Time: 'May 2021',
   },
 ];
@@ -3185,7 +3044,7 @@ export const stackedPrimaryYAxis = {
 
 export const kanbanData = [
   {
-    Id: 'Task 1',
+    id: 'Task 1',
     Title: 'Task - 29001',
     Status: 'Open',
     Summary: 'Analyze the new requirements gathered from the customer.',
@@ -3194,12 +3053,12 @@ export const kanbanData = [
     Tags: 'Analyze,Customer',
     Estimate: 3.5,
     Assignee: 'Nancy Davloio',
-    RankId: 1,
+    Rankid: 1,
     Color: '#02897B',
     ClassName: 'e-story, e-low, e-nancy-davloio',
   },
   {
-    Id: 'Task 2',
+    id: 'Task 2',
     Title: 'Task - 29002',
     Status: 'InProgress',
     Summary: 'Improve application performance',
@@ -3208,12 +3067,12 @@ export const kanbanData = [
     Tags: 'Improvement',
     Estimate: 6,
     Assignee: 'Andrew Fuller',
-    RankId: 1,
+    Rankid: 1,
     Color: '#673AB8',
     ClassName: 'e-improvement, e-normal, e-andrew-fuller',
   },
   {
-    Id: 'Task 3',
+    id: 'Task 3',
     Title: 'Task - 29003',
     Status: 'Open',
     Summary: 'Arrange a web meeting with the customer to get new requirements.',
@@ -3222,12 +3081,12 @@ export const kanbanData = [
     Tags: 'Meeting',
     Estimate: 5.5,
     Assignee: 'Janet Leverling',
-    RankId: 2,
+    Rankid: 2,
     Color: '#1F88E5',
     ClassName: 'e-others, e-critical, e-janet-leverling',
   },
   {
-    Id: 'Task 4',
+    id: 'Task 4',
     Title: 'Task - 29004',
     Status: 'InProgress',
     Summary: 'Fix the issues reported in the IE browser.',
@@ -3236,12 +3095,12 @@ export const kanbanData = [
     Tags: 'IE',
     Estimate: 2.5,
     Assignee: 'Janet Leverling',
-    RankId: 2,
+    Rankid: 2,
     Color: '#E64A19',
     ClassName: 'e-bug, e-release, e-janet-leverling',
   },
   {
-    Id: 'Task 5',
+    id: 'Task 5',
     Title: 'Task - 29005',
     Status: 'Review',
     Summary: 'Fix the issues reported by the customer.',
@@ -3250,12 +3109,12 @@ export const kanbanData = [
     Tags: 'Customer',
     Estimate: '3.5',
     Assignee: 'Steven walker',
-    RankId: 1,
+    Rankid: 1,
     Color: '#E64A19',
     ClassName: 'e-bug, e-low, e-steven-walker',
   },
   {
-    Id: 'Task 6',
+    id: 'Task 6',
     Title: 'Task - 29007',
     Status: 'Validate',
     Summary: 'Validate new requirements',
@@ -3264,12 +3123,12 @@ export const kanbanData = [
     Tags: 'Validation',
     Estimate: 1.5,
     Assignee: 'Robert King',
-    RankId: 1,
+    Rankid: 1,
     Color: '#673AB8',
     ClassName: 'e-improvement, e-low, e-robert-king',
   },
   {
-    Id: 'Task 7',
+    id: 'Task 7',
     Title: 'Task - 29009',
     Status: 'Review',
     Summary: 'Fix the issues reported in Safari browser.',
@@ -3278,12 +3137,12 @@ export const kanbanData = [
     Tags: 'Fix,Safari',
     Estimate: 1.5,
     Assignee: 'Nancy Davloio',
-    RankId: 2,
+    Rankid: 2,
     Color: '#E64A19',
     ClassName: 'e-bug, e-release, e-nancy-davloio',
   },
   {
-    Id: 'Task 8',
+    id: 'Task 8',
     Title: 'Task - 29010',
     Status: 'Close',
     Summary: 'Test the application in the IE browser.',
@@ -3292,12 +3151,12 @@ export const kanbanData = [
     Tags: 'Review,IE',
     Estimate: 5.5,
     Assignee: 'Margaret hamilt',
-    RankId: 3,
+    Rankid: 3,
     Color: '#02897B',
     ClassName: 'e-story, e-low, e-margaret-hamilt',
   },
   {
-    Id: 'Task 9',
+    id: 'Task 9',
     Title: 'Task - 29011',
     Status: 'Validate',
     Summary: 'Validate the issues reported by the customer.',
@@ -3306,12 +3165,12 @@ export const kanbanData = [
     Tags: 'Validation,Fix',
     Estimate: 1,
     Assignee: 'Steven walker',
-    RankId: 1,
+    Rankid: 1,
     Color: '#02897B',
     ClassName: 'e-story, e-high, e-steven-walker',
   },
   {
-    Id: 'Task 10',
+    id: 'Task 10',
     Title: 'Task - 29015',
     Status: 'Open',
     Summary: 'Show the retrieved data from the server in grid control.',
@@ -3320,12 +3179,12 @@ export const kanbanData = [
     Tags: 'Database,SQL',
     Estimate: 5.5,
     Assignee: 'Margaret hamilt',
-    RankId: 4,
+    Rankid: 4,
     Color: '#02897B',
     ClassName: 'e-story, e-high, e-margaret-hamilt',
   },
   {
-    Id: 'Task 11',
+    id: 'Task 11',
     Title: 'Task - 29016',
     Status: 'InProgress',
     Summary: 'Fix cannot open user’s default database SQL error.',
@@ -3334,12 +3193,12 @@ export const kanbanData = [
     Tags: 'Database,Sql2008',
     Estimate: 2.5,
     Assignee: 'Janet Leverling',
-    RankId: 4,
+    Rankid: 4,
     Color: '#E64A19',
     ClassName: 'e-bug, e-critical, e-janet-leverling',
   },
   {
-    Id: 'Task 12',
+    id: 'Task 12',
     Title: 'Task - 29017',
     Status: 'Review',
     Summary: 'Fix the issues reported in data binding.',
@@ -3348,12 +3207,12 @@ export const kanbanData = [
     Tags: 'Databinding',
     Estimate: '3.5',
     Assignee: 'Janet Leverling',
-    RankId: 4,
+    Rankid: 4,
     Color: '#02897B',
     ClassName: 'e-story, e-normal, e-janet-leverling',
   },
   {
-    Id: 'Task 13',
+    id: 'Task 13',
     Title: 'Task - 29018',
     Status: 'Close',
     Summary: 'Analyze SQL server 2008 connection.',
@@ -3362,12 +3221,12 @@ export const kanbanData = [
     Tags: 'Grid,Sql',
     Estimate: 2,
     Assignee: 'Andrew Fuller',
-    RankId: 4,
+    Rankid: 4,
     Color: '#02897B',
     ClassName: 'e-story, e-release, e-andrew-fuller',
   },
   {
-    Id: 'Task 14',
+    id: 'Task 14',
     Title: 'Task - 29019',
     Status: 'Validate',
     Summary: 'Validate databinding issues.',
@@ -3376,12 +3235,12 @@ export const kanbanData = [
     Tags: 'Validation',
     Estimate: 1.5,
     Assignee: 'Margaret hamilt',
-    RankId: 1,
+    Rankid: 1,
     Color: '#02897B',
     ClassName: 'e-story, e-low, e-margaret-hamilt',
   },
   {
-    Id: 'Task 15',
+    id: 'Task 15',
     Title: 'Task - 29020',
     Status: 'Close',
     Summary: 'Analyze grid control.',
@@ -3390,12 +3249,12 @@ export const kanbanData = [
     Tags: 'Analyze',
     Estimate: 2.5,
     Assignee: 'Margaret hamilt',
-    RankId: 5,
+    Rankid: 5,
     Color: '#02897B',
     ClassName: 'e-story, e-high, e-margaret-hamilt',
   },
   {
-    Id: 'Task 16',
+    id: 'Task 16',
     Title: 'Task - 29021',
     Status: 'Close',
     Summary: 'Stored procedure for initial data binding of the grid.',
@@ -3404,12 +3263,12 @@ export const kanbanData = [
     Tags: 'Databinding',
     Estimate: 1.5,
     Assignee: 'Steven walker',
-    RankId: 6,
+    Rankid: 6,
     Color: '#1F88E5',
     ClassName: 'e-others, e-release, e-steven-walker',
   },
   {
-    Id: 'Task 17',
+    id: 'Task 17',
     Title: 'Task - 29022',
     Status: 'Close',
     Summary: 'Analyze stored procedures.',
@@ -3418,12 +3277,12 @@ export const kanbanData = [
     Tags: 'Procedures',
     Estimate: 5.5,
     Assignee: 'Janet Leverling',
-    RankId: 7,
+    Rankid: 7,
     Color: '#02897B',
     ClassName: 'e-story, e-release, e-janet-leverling',
   },
   {
-    Id: 'Task 18',
+    id: 'Task 18',
     Title: 'Task - 29023',
     Status: 'Validate',
     Summary: 'Validate editing issues.',
@@ -3432,12 +3291,12 @@ export const kanbanData = [
     Tags: 'Editing',
     Estimate: 1,
     Assignee: 'Nancy Davloio',
-    RankId: 1,
+    Rankid: 1,
     Color: '#02897B',
     ClassName: 'e-story, e-critical, e-nancy-davloio',
   },
   {
-    Id: 'Task 19',
+    id: 'Task 19',
     Title: 'Task - 29024',
     Status: 'Review',
     Summary: 'Test editing functionality.',
@@ -3446,12 +3305,12 @@ export const kanbanData = [
     Tags: 'Editing,Test',
     Estimate: 0.5,
     Assignee: 'Nancy Davloio',
-    RankId: 5,
+    Rankid: 5,
     Color: '#02897B',
     ClassName: 'e-story, e-normal, e-nancy-davloio',
   },
   {
-    Id: 'Task 20',
+    id: 'Task 20',
     Title: 'Task - 29025',
     Status: 'Open',
     Summary: 'Enhance editing functionality.',
@@ -3460,12 +3319,12 @@ export const kanbanData = [
     Tags: 'Editing',
     Estimate: 3.5,
     Assignee: 'Andrew Fuller',
-    RankId: 5,
+    Rankid: 5,
     Color: '#673AB8',
     ClassName: 'e-improvement, e-low, e-andrew-fuller',
   },
   {
-    Id: 'Task 21',
+    id: 'Task 21',
     Title: 'Task - 29026',
     Status: 'InProgress',
     Summary: 'Improve the performance of the editing functionality.',
@@ -3474,12 +3333,12 @@ export const kanbanData = [
     Tags: 'Performance',
     Estimate: 6,
     Assignee: 'Nancy Davloio',
-    RankId: 5,
+    Rankid: 5,
     Color: '#e91e64',
     ClassName: 'e-epic, e-high, e-nancy-davloio',
   },
   {
-    Id: 'Task 22',
+    id: 'Task 22',
     Title: 'Task - 29027',
     Status: 'Open',
     Summary: 'Arrange web meeting with the customer to show editing demo.',
@@ -3488,12 +3347,12 @@ export const kanbanData = [
     Tags: 'Meeting,Editing',
     Estimate: 5.5,
     Assignee: 'Steven walker',
-    RankId: 6,
+    Rankid: 6,
     Color: '#1F88E5',
     ClassName: 'e-others, e-high, e-steven-walker',
   },
   {
-    Id: 'Task 23',
+    id: 'Task 23',
     Title: 'Task - 29029',
     Status: 'Review',
     Summary: 'Fix the editing issues reported by the customer.',
@@ -3502,12 +3361,12 @@ export const kanbanData = [
     Tags: 'Editing,Fix',
     Estimate: '3.5',
     Assignee: 'Janet Leverling',
-    RankId: 6,
+    Rankid: 6,
     Color: '#E64A19',
     ClassName: 'e-bug, e-low, e-janet-leverling',
   },
   {
-    Id: 'Task 24',
+    id: 'Task 24',
     Title: 'Task - 29030',
     Status: 'Testing',
     Summary: 'Fix the issues reported by the customer.',
@@ -3516,12 +3375,12 @@ export const kanbanData = [
     Tags: 'Customer',
     Estimate: '3.5',
     Assignee: 'Steven walker',
-    RankId: 1,
+    Rankid: 1,
     Color: '#E64A19',
     ClassName: 'e-bug, e-critical, e-steven-walker',
   },
   {
-    Id: 'Task 25',
+    id: 'Task 25',
     Title: 'Task - 29031',
     Status: 'Testing',
     Summary: 'Fix the issues reported in Safari browser.',
@@ -3530,7 +3389,7 @@ export const kanbanData = [
     Tags: 'Fix,Safari',
     Estimate: 1.5,
     Assignee: 'Nancy Davloio',
-    RankId: 2,
+    Rankid: 2,
     Color: '#E64A19',
     ClassName: 'e-bug, e-release, e-nancy-davloio',
   },

@@ -50,9 +50,12 @@ function App() {
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
             </Routes>
-          </div>
-        </div>
+            <div className="mb-10">
       </div>
+          </div>
+          
+        </div>
+        </div>
     </BrowserRouter>
   )
 }
