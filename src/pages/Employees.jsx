@@ -125,8 +125,8 @@ const Employees = () => {
         <p className="text-xl text-gray-500">Page</p>{" "}
         <p className=" font-bold text-3xl">Employees</p>
       </div>
-      <div className=" mt-5 rounded-xl ml-20 bg-white sidebar">
-        <Box sx={{ height: 400, width: "100%" }}>
+      <div className=" mt-5 w-full rounded-xl ml-20 bg-white sidebar">
+        <Box sx={{  }}>
           <DataGrid
             rows={rows}
             columns={columns}

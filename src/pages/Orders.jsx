@@ -195,8 +195,8 @@ const Orders = () => {
     <div>
       <div className="mt-28 ml-20">
         <p className="text-xl text-gray-500">Page</p> <p className=" font-bold text-3xl">Orders</p></div>
-        <div  className=" mt-5 rounded-xl ml-20 bg-white sidebar">
-          <Box sx={{ height: 400, width: "100%" }}>
+        <div  className="w-full mt-5 rounded-xl ml-20 bg-white sidebar">
+          <Box sx={{ }}>
             <DataGrid
               rows={rows}
               columns={columns}
